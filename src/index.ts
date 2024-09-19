@@ -1,1 +1,0 @@
-export { payWithMeProtocol } from "./payWithMeProtocol";

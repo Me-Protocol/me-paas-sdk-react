@@ -1,32 +1,22 @@
-# Node modules
-/node_modules/
-/example/node_modules/
 
-# Build output
-/dist/
-*.tgz
+# See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# TypeScript build artifacts
-*.tsbuildinfo
-*.d.ts
+# dependencies
+node_modules
 
-# Log files
-*.log
+# builds
+build
+dist
+.rpt2_cache
 
-# IDE and editor specific files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS-specific files
+# misc
 .DS_Store
-Thumbs.db
-
-# Environment files
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Yarn / npm lock files (optional, depending on your preference)
-yarn.lock
-package-lock.json
-
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
