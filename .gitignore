@@ -1,0 +1,32 @@
+# Node modules
+/node_modules/
+/example/node_modules/
+
+# Build output
+/dist/
+*.tgz
+
+# TypeScript build artifacts
+*.tsbuildinfo
+*.d.ts
+
+# Log files
+*.log
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Yarn / npm lock files (optional, depending on your preference)
+yarn.lock
+package-lock.json
+
