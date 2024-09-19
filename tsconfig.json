@@ -1,19 +1,20 @@
 {
     "compilerOptions": {
-        "declaration": true, // Ensures type declaration files are generated
-        "emitDeclarationOnly": true, // Only emit declaration files
-        "outDir": "dist", // Where to put the declaration files
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "outDir": "dist",
         "moduleResolution": "node",
-        "module": "esnext", // Adjust this based on your needs
+        "module": "esnext",
         "target": "es5",
         "jsx": "react",
-        // Add any other options you need
+        "allowSyntheticDefaultImports": true
     },
     "include": [
         "src/**/*"
     ],
     "exclude": [
         "node_modules",
-        "dist"
+        "dist",
+        "example"
     ]
 }
