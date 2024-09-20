@@ -1,11 +1,11 @@
-# protocol-sdk-react
+# me-paas-sdk-react
 
-[![NPM](https://img.shields.io/npm/v/protocol-sdk-react.svg)](https://www.npmjs.com/package/protocol-sdk-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/me-paas-sdk-react.svg)](https://www.npmjs.com/package/me-paas-sdk-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save protocol-sdk-react
+npm install --save me-paas-sdk-react
 ```
 
 ## Usage
