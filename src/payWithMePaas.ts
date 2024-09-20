@@ -1,16 +1,17 @@
 import { Props } from './types'
 
-export const payWithMeProtocol = ({
+export const payWithMePaas = ({
   apiKey,
   amount,
   email,
-  link,
   onClose,
   onSuccess,
   onError
 }: Props) => {
+  const link = 'https://me-paas-sdk.vercel.app/'
+
   // Validate parameters
-  if (!apiKey || !amount || !email || !link) {
+  if (!apiKey || !amount || !email) {
     if (onError) onError('Missing required parameters.')
     return
   }

@@ -1,1 +1,1 @@
-export { payWithMeProtocol } from './payWithMeProtocol'
+export { payWithMePaas } from './payWithMePaas'

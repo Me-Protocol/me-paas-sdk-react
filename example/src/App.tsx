@@ -1,14 +1,13 @@
 import React from 'react'
 
-import { payWithMeProtocol } from 'protocol-sdk-react'
+import { payWithMePaas } from 'me-paas-sdk-react'
 
 const App = () => {
   const handlePaymentClick = () => {
-    payWithMeProtocol({
+    payWithMePaas({
       apiKey: 'your-api-key',
       amount: '5000',
       email: 'test@example.com',
-      link: 'http://localhost:3000',
       onSuccess: (hash) => {
         console.log('Payment Success, Hash:', hash)
       },

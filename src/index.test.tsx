@@ -1,7 +1,7 @@
-import { payWithMeProtocol } from '.'
+import { payWithMePaas } from '.'
 
-describe('ExampleComponent', () => {
+describe('payWithMePaas', () => {
   it('is truthy', () => {
-    expect(payWithMeProtocol).toBeTruthy()
+    expect(payWithMePaas).toBeTruthy()
   })
 })

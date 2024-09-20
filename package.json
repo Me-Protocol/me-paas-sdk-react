@@ -1,10 +1,10 @@
 {
-  "name": "protocol-sdk-react",
+  "name": "me-paas-sdk-react",
   "version": "1.0.2",
-  "description": "Made with create-react-library",
+  "description": "Me Protocol as a Service SDK for React",
   "author": "codemobii",
   "license": "MIT",
-  "repository": "https://github.com/Me-Protocol/protocol-sdk-react",
+  "repository": "https://github.com/Me-Protocol/me-paas-sdk-react",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
