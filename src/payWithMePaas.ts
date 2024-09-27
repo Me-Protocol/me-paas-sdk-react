@@ -8,7 +8,7 @@ export const payWithMePaas = ({
   onSuccess,
   onError
 }: Props) => {
-  const link = 'http://localhost:3000/'
+  const link = 'https://me-paas-sdk.vercel.app'
 
   // Validate parameters
   if (!apiKey || !amount || !email) {
@@ -86,7 +86,7 @@ export const payWithMePaas = ({
     window.addEventListener('message', (event) => {
       if (event.origin !== new URL(link).origin) return
       if (event.data.status === 'success' && onSuccess) {
-        onSuccess(event.data.hash)
+        onSuccess(event.data.transactionId)
         closeModal(modal)
       } else if (
         event.data.status === 'error' &&

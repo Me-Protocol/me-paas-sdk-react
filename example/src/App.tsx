@@ -8,8 +8,8 @@ const App = () => {
       apiKey: 'ro2a6ajkavja4i0uhui41i',
       amount: '500',
       email: 'test@example.com',
-      onSuccess: (hash) => {
-        console.log('Payment Success, Hash:', hash)
+      onSuccess: (transactionId) => {
+        console.log('Payment Success, transactionId:', transactionId)
       },
       onError: (message) => {
         console.error('Payment Error:', message)
