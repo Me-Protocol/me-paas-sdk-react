@@ -21,8 +21,8 @@ const App = () => {
       apiKey: 'ro2a6ajkavja4i0uhui41i',
       amount: '500',
       email: 'test@example.com',
-      onSuccess: (transactionId) => {
-        console.log('Payment Success, transactionId:', transactionId)
+      onSuccess: (taskId) => {
+        console.log('Payment Success, transactionId:', taskId)
       },
       onError: (message) => {
         console.error('Payment Error:', message)

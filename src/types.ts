@@ -8,6 +8,6 @@ export interface Props {
   amount: string
   email: string
   onClose?: () => void
-  onSuccess?: (transactionId: string) => void
+  onSuccess?: (taskId: string) => void
   onError?: (message: string) => void
 }

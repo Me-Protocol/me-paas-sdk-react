@@ -86,8 +86,7 @@ export const payWithMePaas = ({
     window.addEventListener('message', (event) => {
       if (event.origin !== new URL(link).origin) return
       if (event.data.status === 'success' && onSuccess) {
-        onSuccess(event.data.transactionId)
-        closeModal(modal)
+        onSuccess(event.data.task_id)
       } else if (
         event.data.status === 'error' &&
         event.data.message &&
